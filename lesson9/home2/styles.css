@@ -1,70 +1,94 @@
-*{
+* {
     box-sizing: border-box;
-}
-.header{
-    background-color: darkturquoise;
-    height:40px;
-    width:100%;
-    position:fixed;
-    z-index:2;
-   
+
 }
 
-.nav-list{
-    list-style-type: none;
-    height:40px;
-    margin:0;
+.header {
+    background-color: darkturquoise;
+    position: fixed;
+
+    width: 100%;
+    z-index: 2;
+    height: 40px;
+
+
 }
-.nav-item{
-    display: inline-block;
-    color:white;
-    margin-left:16px;
+
+.nav-list {
+    margin: 0;
+    list-style: none;
     line-height: 40px;
+
 }
-.content{
+
+.nav-item {
+
+    float: left;
+    margin-left: 16px;
+
+    color: white;
+
+}
+
+.content {
     background-color: beige;
-    height:5000px;
+    height: 5000px;
+
+
 }
-.head{
-    height:200px;
-    width:200px;
+
+.head {
+    width: 200px;
+    height: 200px;
     background-color: aquamarine;
-    position:relative;
-    top:150px;
-    margin-left:auto;
-    margin-right:auto;
-   
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 150px;
+    z-index: 1;
+
 }
-.ear{
+
+.ear {
+    width: 40px;
+    height: 60px;
     background-color: brown;
-    width:40px;
-    height:60px;
-    display:inline-block
+    z-index: 1;
 }
-.ear_right{
-    position:relative;
-    bottom:60px;
-    right:40px;
+
+.ear_right {
+    position: relative;
+    bottom: 60px;
+    right: 40px;
+    z-index: 1;
 }
-.ear_left{
-    position:relative;
-    bottom:60px;
-    left:155px;
+
+.ear_left {
+    position: relative;
+    bottom: 120px;
+    left: 200px;
+    z-index: 1;
 }
-.eye{
-    display:inline-block;
-    height:30px;
-    width:30px;
-    background-color: grey;
+
+.eye {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+    background-color: grey;
+    z-index: 1;
 }
-.eye_right{
-    position:relative;
-    right:48px;
-    bottom:-50px;
+
+.eye_right {
+    position: relative;
+    bottom: 40px;
+    left: 40px;
+
+    z-index: 1;
 }
-.eye_left{
-    position:relative;
-    left:8px;
-    bottom:-50px;
+
+.eye_left {
+    position: relative;
+    bottom: 70px;
+    left: 130px;
+
 }
