@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .header{
     background-color: darkturquoise;
     height:40px;
@@ -6,9 +9,7 @@
     z-index:2;
    
 }
-.navigation{
-    height:40px;
-}
+
 .nav-list{
     list-style-type: none;
     height:40px;
