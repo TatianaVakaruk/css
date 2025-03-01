@@ -5,7 +5,7 @@ header{
     display:flex;
     justify-content: center;
 }
-.article > h2, .article >p{
+.article {
     margin:8px;
     padding:16px;
     background-color: bisque;
