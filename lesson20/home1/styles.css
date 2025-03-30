@@ -15,7 +15,7 @@
     text-transform: uppercase;
     animation: blinking 2s infinite linear;
     position:relative;
-    right:18px;
+    right:20px;
 }
 @keyframes blinking{
     0%{
